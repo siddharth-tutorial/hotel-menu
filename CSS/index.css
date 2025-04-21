@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+.area {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+.menu-area {
+  position: static;
+  width: 300px;
+
+}
+.mega-area {
+  position: absolute;
+  width: 700px;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  /* display: none; */
+}
+.dropdown-item {
+  padding: 5px 0;
+  
+}
+h5 {
+  font-family:'poppins',sans-serif;
+  font-weight: bold !important;
+  text-align: center;
+  text-transform: capitalize;
+}
+span{
+  font-weight: bold;
+}
+.navbar {
+  margin-top: 2px;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  background-color: coral;
+}
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
